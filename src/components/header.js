@@ -3,8 +3,9 @@ var renderHeader = function () {
 
   header.innerHTML = `
   <div class="jumbotron">
-    <h1 class="display-4">Magnificat</h1>
-    <p class="lead">Health Services & Insurance</p>
+    <div id="logo-area">
+      <img src="src/img/logo/400dpiLogo.png" class="img-fluid" />
+    </div>
   </div>
   `;
 }()

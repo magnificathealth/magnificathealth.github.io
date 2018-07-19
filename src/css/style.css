@@ -14,3 +14,10 @@ body {
 #conocenos-img {
   padding-right: 0.5rem 
 }
+
+#logo-area img {
+  display: block;
+  margin: auto;
+  max-height: 15rem;
+  margin-top: -2rem;
+}
