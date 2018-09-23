@@ -24,9 +24,6 @@ var renderNavbar = function () {
           <a class="nav-link" href="/servicios.html">Servicios</a>
         </li>        
         <li class="nav-item">
-          <a class="nav-link" href="src/docs/Brochure_MHS&I.pdf">Brochure</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/contacto.html">Contacto</a>
         </li>
       </ul>
