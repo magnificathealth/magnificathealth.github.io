@@ -4,7 +4,7 @@ var renderHeader = function () {
   header.innerHTML = `
   <div class="jumbotron">
     <div id="logo-area">
-      <img src="src/img/logo/400dpiLogo.png" class="img-fluid" />
+      <img src="src/img/logo/magnificat_new_logo.png" class="img-fluid" />
     </div>
   </div>
   `;

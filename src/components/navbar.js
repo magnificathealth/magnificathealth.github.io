@@ -15,14 +15,11 @@ var renderNavbar = function () {
           <a class="nav-link" href="/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/proposito.html">Prop&oacute;sito</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/conocenos.html">Con&oacute;cenos</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/servicios.html">Servicios</a>
-        </li>        
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/conocenos.html">Nuestra Oficina</a>
+        </li>       
         <li class="nav-item">
           <a class="nav-link" href="/contacto.html">Contacto</a>
         </li>

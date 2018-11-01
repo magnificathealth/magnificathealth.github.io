@@ -8,6 +8,7 @@
   <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="src/css/style.css">
   <title>Inicio | Magnificat HS&amp;I</title>
@@ -18,16 +19,17 @@
   <div id="page-nav"></div>
   <!-- Page Header -->
   <div id="page-header"></div>
+  
+  <!-- Slogan -->
+  <!-- <div class="slogan">
+    <h1>Slogan Test</h1>
+    <img class="img-fluid" src="src/img/modo-jumbo.jpg" alt="First slide">
+  </div> -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <!-- Carousel
+        <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100 img-fluid" src="src/img/slide1.JPG" alt="First slide">
@@ -47,11 +49,38 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div> -->
+        </div> 
         <!-- Imagen Principal -->
-        <div id="magnificat-img">
+        <!-- <div id="magnificat-img">
           <div class="card">
             <img class="card-img-top img-fluid" src="src/img/logotipo.png" alt="Magnificat">
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- Thumbnails -->
+    <div id="info_cards" class="row">
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem; display: block; margin: auto;">
+          <div style="width: 100px; height: 180px">
+              <i class="fas fa-hand-holding-heart" style="color: #f2f2f2; text-shadow: 2px 2px #e7e7e7; font-size: 7rem; top: 10%; left: 27%; position: absolute;"></i>
+          </div>
+          <div class="card-body">
+              <h5 class="card-title text-muted">Servicios</h5>
+              <p class="card-text">Visite nuestro listado de servicios para m&aacute; detalles e informaci&oacute;n...</p>
+              <a href="/servicios.html" class="btn btn-primary">Visitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem; display: block; margin: auto;">
+          <div style="width: 100px; height: 180px">
+            <i class="fas fa-users" style="color: #f2f2f2; text-shadow: 2px 2px #e7e7e7; font-size: 7rem; top: 10%; left: 25%; position: absolute;"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Nuestra Oficina</h5>
+            <p class="card-text">Conoce m&aacute;s sobre nuestro equipo y facilidades.</p>
+            <a href="/conocenos.html" class="btn btn-primary">Visitar</a>
           </div>
         </div>
       </div>
