@@ -3,10 +3,10 @@ body {
   padding-top: 3rem;
 }
 
-#page-header .jumbotron{
+#page-header .jumbotron {
   background-color: #fff;
   max-height: 18rem;
-  border-bottom: 1px solid rgba(0,0,0,.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card {
@@ -14,7 +14,7 @@ body {
 }
 
 #conocenos-img {
-  padding-right: 0.5rem 
+  padding-right: 0.5rem;
 }
 
 #logo-area img {
@@ -41,20 +41,24 @@ body {
   }
 }
 
- .carousel-item img {
-   max-height: 24rem;
-   max-width: 54rem;
-   display: block;
-   margin: auto;
- }
- 
+.carousel-item img {
+  max-height: 24rem;
+  max-width: 54rem;
+  display: block;
+  margin: auto;
+}
+
 .slogan img {
   margin-top: -32px !important;
-  display: block; 
+  display: block;
   margin: auto;
   z-index: 0;
- }
+}
 
- #info_cards .card {
-   margin-top: 1rem !important;
- }
+#info_cards {
+  margin-bottom: 3rem;
+}
+
+#info_cards .card {
+  margin-top: 1rem !important;
+}
