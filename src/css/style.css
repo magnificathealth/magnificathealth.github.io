@@ -67,8 +67,19 @@ body {
   text-align: center;
 }
 
+.hands-vid iframe {
+  width: 100%;
+  max-width: 560px;
+  max-height: 315px;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background-color: rgba(0,0,0,0.5);
   border-radius: 5px;
-  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hands-vid iframe {
+    height: 215px;
+  }
 }
