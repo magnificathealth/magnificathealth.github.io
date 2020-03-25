@@ -83,3 +83,12 @@ body {
     height: 215px;
   }
 }
+
+.personal .card {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.personal .card .card-body {
+  min-height: 7.5rem;
+}
